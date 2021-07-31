@@ -1,0 +1,81 @@
+@media screen and (max-width:500px){
+    header .navbar a {
+        font-size: 10px;
+    }
+
+
+}
+
+@media screen and (max-width:600px){
+
+    .buttoninfo {
+        overflow: visible;
+        font-size: 10px;
+
+    
+    }
+    .button {
+
+        font-size: 10px;
+        
+    }
+    .buttons {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:700px){
+
+    header nav a {
+        display: none;
+    }
+}
+@media screen and (min-width:700px){
+
+    header navsmall {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:900px){
+    header .navbar a {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width:1400px){
+    .nometitulo {
+        height: 170px;
+    }
+    .buttons button{
+        font-size: 16px;
+    }
+}
+    @media screen and (min-width:1100px){
+
+        .buttons button{
+            font-size: 16px;
+        }
+    
+}
+@media screen and (min-width:850px){
+    header .logo {
+        height: 27px;
+        margin-right: 20px;
+    }
+    header .container {
+
+        height: 50px;
+      
+    }
+    header nav a {
+
+        font-size: 14px;
+        margin-left: 14px;
+    }
+    
+    
+}
